@@ -1,0 +1,27 @@
+nav {
+    top: 0.75rem;
+}
+nav h3 {
+    font-size: 1rem;
+}
+.center-part h1 {
+    font-size: 1.75rem;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+nav ul a {
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: all 150ms ease-in-out;
+}
+nav ul a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.3rem;
+}
